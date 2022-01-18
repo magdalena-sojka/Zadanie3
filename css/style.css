@@ -1,3 +1,56 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
+.container-fluid {
+  position: absolute;
+  background-image: url(https://i.postimg.cc/qRxKVGBS/pexels-vitaly-vlasov-1655817.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.navbar .splash {
+  background: inherit;
+}
+
+.navbar-brand {
+  color: #e1b12c;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.splash {
+  margin: 128px;
+  text-align: center;
+}
+
+.splash h1 {
+  color: white;
+  font-style: italic;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+}
+
+.splash p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 72px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #e1b12c;
+  border-color: #e1b12c;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHNCQUFBO0FDQ0o7O0FET0E7RUFDRSxrQkFBQTtFQUNBLHFGQUFBO0VBQ0Esa0NBQUE7RUFDQSxzQkFBQTtFQUNBLDRCQUFBO0FDSkY7O0FET0E7RUFDRSxtQkFBQTtBQ0pGOztBRE9BO0VBQ0UsY0FoQlc7RUFpQlgsaUNBbkJVO0VBb0JWLGtCQUFBO0VBQ0EsaUJBQUE7QUNKRjs7QURPQTtFQUNFLFlBQUE7RUFDQSxpQ0F6Qlk7QUNxQmQ7O0FET0E7RUFDRSxhQUFBO0VBQ0Esa0JBQUE7QUNKRjs7QURPQTtFQUNFLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0VBQ0EsaUNBckNZO0VBc0NaLGVBQUE7QUNKRjs7QURPQTtFQUNFLFlBQUE7RUFDQSxpQ0E1Q1U7RUE2Q1YsZUFBQTtFQUNBLGtCQUFBO0FDSkY7O0FET0E7RUFDRSx5QkFoRFc7RUFpRFgscUJBakRXO0VBa0RYLGlDQW5EWTtFQW9EWixrQkFBQTtBQ0pGIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */

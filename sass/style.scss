@@ -1,0 +1,59 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+$font-text: 'Roboto', sans-serif;
+$font-header: 'Roboto', sans-serif;
+$color-main: #e1b12c;
+
+
+.container-fluid {
+  position: absolute;
+  background-image: url(https://i.postimg.cc/qRxKVGBS/pexels-vitaly-vlasov-1655817.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar .splash {
+  background: inherit;
+}
+
+.navbar-brand {
+  color: $color-main;
+  font-family: $font-text;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white;
+  font-family: $font-header;
+}
+
+.splash {
+  margin: 128px;
+  text-align: center;
+}
+
+.splash h1 {
+  color: white;
+  font-style: italic;
+  text-align: center;
+  font-family: $font-header;
+  font-size: 36px;
+}
+
+.splash p {
+  color: white;
+  font-family: $font-text;
+  font-size: 72px;
+  text-align: center;
+}
+
+.btn {
+  background-color: $color-main;
+  border-color: $color-main;
+  font-family: $font-header;
+  text-align: center;
+}
