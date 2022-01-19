@@ -123,3 +123,40 @@ p {
   margin-top: 112px;
   margin-bottom: 112px;
 }
+
+footer {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline-flex;
+    flex: 33.333%;
+    font-size: 0px;
+}
+
+footer .row {
+    margin: 0 auto;
+}
+
+footer .fab {
+    font-size: 30px;
+    background: black;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+footer p {
+  font-style: normal;
+}
+
+.fab:hover {
+    transform: scale(1.2);
+}
