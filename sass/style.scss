@@ -61,6 +61,7 @@ $color-main: #e1b12c;
   font-family: $font-header;
   text-align: center;
 }
+
 .card {
   border-color: none;
   text-align: center;
@@ -87,7 +88,11 @@ $color-main: #e1b12c;
     text-align: center;
     position: relative;
     left: 50%;
-  }
+}
+
+h2 {
+  font-style: normal;
+}
 
 h3 {
   color: black;
@@ -119,9 +124,6 @@ p {
 .portfolio {
   background: #a4b0be;
   overflow: hidden;
-  height: 170vh;
-  margin-top: 112px;
-  margin-bottom: 112px;
 }
 
 footer {
@@ -155,8 +157,4 @@ footer .fab {
 }
 footer p {
   font-style: normal;
-}
-
-.fab:hover {
-    transform: scale(1.2);
 }
