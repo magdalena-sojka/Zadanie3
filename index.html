@@ -4,11 +4,10 @@
     <meta charset="utf-8">
     <title>Zadanie nr 2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Condiment&family=PT+Serif&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="vendor\bootstrap-grid.css">
     <link rel="stylesheet" href="css\style.css">
   </head>
@@ -17,25 +16,25 @@
 
 
     <div class="container-fluid">
-      <div class="navbar container d-flex justify-content-between">
+      <div class="navbar container">
         <a class="navbar-brand" href="#">Golden</a>
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">SERVICES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">PORTFOLIO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT</a>
-          </li>
-        </ul>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
       </div>
       <div class="splash">
         <div class="splash-inner">
@@ -52,7 +51,7 @@
         <h3>OUR SERVICES</h3>
         <h4>Sed volutpat consequat ex blandit dapibus</h4>
         <div class="row">
-          <div class="col">
+          <div class="col-md-4 col-sm-12">
             <div class="card border-0">
               <i class="fas fa-camera"></i>
               <div class="card-body">
@@ -61,7 +60,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-4 col-sm-12">
             <div class="card border-0">
               <i class="fas fa-database"></i>
               <div class="card-body">
@@ -70,8 +69,8 @@
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card border-0 ">
+          <div class="col-md-4 col-sm-12">
+            <div class="card border-0">
               <i class="fas fa-check-double"></i>
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
@@ -86,49 +85,61 @@
       <div class="container">
         <h3>OUR PORTFOLIO</h3>
         <h4>Sed volutpat consequat ex blandit dapibus</h4>
-        <div class="card-deck">
-          <div class="card">
-            <img src="https://i.postimg.cc/cLsZt2RF/pexels-karolina-grabowska-8947776.jpg" alt="image">
-            <div class="card-body">
-              <h5 class="card-title">Ebony, Ivory</h5>
-              <p class="card-text">Branding</p>
+        <div class="row">
+          <div class="col-sm-6 col-lg-4">
+            <div class="card">
+              <img src="https://i.postimg.cc/cLsZt2RF/pexels-karolina-grabowska-8947776.jpg" alt="image">
+              <div class="card-body">
+                <h5 class="card-title">Ebony, Ivory</h5>
+                <p class="card-text">Branding</p>
+              </div>
             </div>
           </div>
-          <div class="card">
-            <img src="https://i.postimg.cc/CMHjsfym/pexels-pnw-production-8489929.jpg" alt="image">
-            <div class="card-body">
-              <h5 class="card-title">Smart Stationary</h5>
-              <p class="card-text">Pront Design</p>
+          <div class="col-sm-6 col-lg-4">
+            <div class="card">
+              <img src="https://i.postimg.cc/CMHjsfym/pexels-pnw-production-8489929.jpg" alt="image">
+              <div class="card-body">
+                <h5 class="card-title">Smart Stationary</h5>
+                <p class="card-text">Pront Design</p>
+              </div>
             </div>
           </div>
-          <div class="card">
-            <img src="https://i.postimg.cc/5NKQsBsq/pexels-pavel-danilyuk-8423899.jpg" alt="image">
-            <div class="card-body">
-              <h5 class="card-title">Clever Poser</h5>
-              <p class="card-text">Print Design</p>
+          <div class="col-sm-6 col-lg-4">
+            <div class="card">
+              <img src="https://i.postimg.cc/5NKQsBsq/pexels-pavel-danilyuk-8423899.jpg" alt="image">
+              <div class="card-body">
+                <h5 class="card-title">Clever Poser</h5>
+                <p class="card-text">Print Design</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="card-deck">
-          <div class="card">
-            <img src="https://i.postimg.cc/k534HfK8/pexels-rfstudio-3618352.jpg" alt="image">
-            <div class="card-body">
-              <h5 class="card-title">Vinyl Record</h5>
-              <p class="card-text">Product Mock-up</p>
+        <div class="row">
+          <div class="col-sm-6 col-lg-4">
+            <div class="card">
+              <img src="https://i.postimg.cc/k534HfK8/pexels-rfstudio-3618352.jpg" alt="image">
+              <div class="card-body">
+                <h5 class="card-title">Vinyl Record</h5>
+                <p class="card-text">Product Mock-up</p>
+              </div>
             </div>
           </div>
-          <div class="card">
-            <img src="https://i.postimg.cc/1XZr5pkN/pexels-pixabay-39284.jpg" alt="image">
-            <div class="card-body">
-              <h5 class="card-title">Treehouse Template</h5>
-              <p class="card-text">Web Design</p>
+          <div class="col-sm-6 col-lg-4">
+            <div class="card">
+              <img src="https://i.postimg.cc/1XZr5pkN/pexels-pixabay-39284.jpg" alt="image">
+              <div class="card-body">
+                <h5 class="card-title">Treehouse Template</h5>
+                <p class="card-text">Web Design</p>
+              </div>
             </div>
           </div>
-          <div class="card">
-            <img src="https://i.postimg.cc/RCyzGqcJ/pexels-stephen-niemeier-176837.jpg" alt="image">
-            <div class="card-body">
-              <h5 class="card-title">Logo</h5>
-              <p class="card-text">Branding</p>
+          <div class="col-sm-6 col-lg-4">
+            <div class="card">
+              <img src="https://i.postimg.cc/RCyzGqcJ/pexels-stephen-niemeier-176837.jpg" alt="image">
+              <div class="card-body">
+                <h5 class="card-title">Logo</h5>
+                <p class="card-text">Branding</p>
+              </div>
             </div>
           </div>
         </div>
@@ -137,10 +148,10 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-md-4 col-sm-4">
                   <p>© Copyright 2014 FreebiesXpress.com</p>
                 </div>
-                <div class="col">
+                <div class="col-md-4 col-sm-4">
                   <ul>
                       <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
                       <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
@@ -148,15 +159,13 @@
                       <li><a href="#"><i class="fab fa-google-plus-g"></i>Google+</a></li>
                   </ul>
                 </div>
-                <div class="col">
+                <div class="col-md-4 col-sm-4">
                 </div>
             </div>
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+
   </body>
 
 </html>

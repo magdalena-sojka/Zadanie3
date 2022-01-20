@@ -2,8 +2,9 @@
     box-sizing: border-box;
 }
 
-$font-text: 'Roboto', sans-serif;
+$font-text: 'PT Serif', serif;
 $font-header: 'Roboto', sans-serif;
+$font-logo: 'Condiment', cursive;
 $color-main: #e1b12c;
 
 
@@ -20,16 +21,32 @@ $color-main: #e1b12c;
   background: inherit;
 }
 
+.navbar {
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .navbar-brand {
   color: $color-main;
-  font-family: $font-text;
+  font-family: 'Condiment', cursive;
   font-style: italic;
   font-weight: bold;
+  text-decoration: none;
+  font-size: 36px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: inline-flex;
 }
 
 .nav-link {
   color: white;
-  font-family: $font-header;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0 18px;
 }
 
 .splash {
@@ -44,28 +61,47 @@ $color-main: #e1b12c;
   color: white;
   font-style: italic;
   text-align: center;
-  font-family: $font-header;
+  font-family: 'PT Serif', serif;
   font-size: 36px;
 }
 
 .splash p {
   color: white;
   font-family: $font-text;
-  font-size: 72px;
+  font-size: 64px;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
 }
 
 .btn {
   background-color: $color-main;
   border-color: $color-main;
-  font-family: $font-header;
+  font-family: 'Roboto', sans-serif;
+  color: white;
   text-align: center;
+  display: inline-block;
+  min-width: 160px;
+  max-width: 160px;
+  margin: auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
 }
 
 .card {
-  border-color: none;
+  border-color: black;
+  border: 2px;
   text-align: center;
+  background: white;
 }
+
 
 .card img {
     width: 100%;
@@ -87,7 +123,7 @@ $color-main: #e1b12c;
     border-radius: 50%;
     text-align: center;
     position: relative;
-    left: 50%;
+    transformX: 50%;
 }
 
 h2 {
@@ -98,23 +134,37 @@ h3 {
   color: black;
   text-align: center;
   line-height: 1;
-  padding-top: 24px;
+  padding-top: 112px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px
 }
 
 h4 {
   color: #747d8c;
   text-align: center;
   font-style: italic;
-  padding: 24px;
+  padding-bottom: 24px;
   line-height: 1.7;
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
 }
 
-p {
+h5 {
+  text-align: center;
+  font-style: normal;
+  color: black;
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+}
+.portfolio p {
   font-style: italic;
+  padding-bottom: 24px;
+  font-family: 'PT Serif', serif;
 }
 
 .services .card-text {
   font-style: normal;
+  font-family: 'PT Serif', serif;
 }
 
 footer ul {
@@ -143,6 +193,7 @@ footer .fab {
 }
 footer p {
   font-style: normal;
+  font-family: 'PT Serif', serif;
 }
 
 .footer {
@@ -150,11 +201,14 @@ footer p {
   margin-bottom: 24px;
 }
 
-.portfolio .services {
-  margin-top: 112px;
-  margin-bottom: 112px;
-}
-
 .portfolio {
   background: #a4b0be;
+}
+
+.portfolio .row:last-of-type {
+  padding-bottom: 112px;
+}
+
+.services .row {
+  padding-bottom: 112px;
 }
