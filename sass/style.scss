@@ -97,7 +97,8 @@ h2 {
 h3 {
   color: black;
   text-align: center;
-  line-height: 0;
+  line-height: 1;
+  padding-top: 24px;
 }
 
 h4 {
@@ -114,21 +115,6 @@ p {
 
 .services .card-text {
   font-style: normal;
-}
-
-.services {
-  margin-top: 112px;
-  margin-bottom: 112px;
-}
-
-.portfolio {
-  background: #a4b0be;
-  overflow: hidden;
-}
-
-footer {
-  margin-top: 12px;
-  margin-bottom: 12px;
 }
 
 footer ul {
@@ -157,4 +143,18 @@ footer .fab {
 }
 footer p {
   font-style: normal;
+}
+
+.footer {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.portfolio .services {
+  margin-top: 112px;
+  margin-bottom: 112px;
+}
+
+.portfolio {
+  background: #a4b0be;
 }
