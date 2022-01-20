@@ -7,6 +7,9 @@ $font-header: 'Roboto', sans-serif;
 $font-logo: 'Condiment', cursive;
 $color-main: #e1b12c;
 
+body {
+  margin: 0;
+}
 
 .container-fluid {
   position: relative;
@@ -173,7 +176,6 @@ footer ul {
 
 footer ul li {
     display: inline-flex;
-    flex: 33.333%;
     font-size: 0px;
 }
 
@@ -199,16 +201,21 @@ footer p {
 .footer {
   margin-top: 24px;
   margin-bottom: 24px;
+  align-items: center;
 }
 
 .portfolio {
   background: #a4b0be;
 }
 
-.portfolio .row:last-of-type {
+.portfolio .row {
   padding-bottom: 112px;
 }
 
 .services .row {
   padding-bottom: 112px;
+}
+
+.footer .row {
+  align-items: center;
 }
